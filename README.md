@@ -1,92 +1,61 @@
 # ML Engineer Portfolio Website
 
-A modern, responsive portfolio website for a Machine Learning Engineer. This website showcases skills, projects, and professional information in an elegant and user-friendly manner.
+A modern, responsive portfolio website showcasing my skills, projects, and experience in Machine Learning and Artificial Intelligence.
 
-## Features
+## 🌐 Live Website
 
-- Responsive design that works on all devices
-- Modern and clean UI with smooth animations
-- Mobile-friendly navigation
-- Sections for About, Skills, Projects, and Contact
-- Smooth scrolling navigation
-- Project cards with hover effects
-- Social media integration
-- Contact information display
+Visit the live website: [chashmishcoder.github.io](https://chashmishcoder.github.io)
 
-## Technologies Used
+## ✨ Features
 
-- HTML5
-- CSS3 (with CSS Variables and Flexbox/Grid)
-- JavaScript (Vanilla)
-- Font Awesome Icons
+- **Neural Network Background Animation**: Interactive particle system visualization that creates a dynamic AI-themed backdrop
+- **Responsive Design**: Fully optimized for desktop, tablet, and mobile devices
+- **Project Showcase**: Interactive carousel featuring my ML/AI projects with GitHub links
+- **Skills Visualization**: Animated progress bars displaying proficiency levels
+- **Smooth Animations**: Elegant transitions and scroll effects for enhanced user experience
+- **Dark Theme**: Modern dark aesthetic with blue accents for optimal readability
 
-## Setup Instructions
+## 🔧 Technologies Used
 
-1. Clone this repository to your local machine
-2. Open `index.html` in your web browser
-3. Customize the content in `index.html` with your personal information
-4. Replace the placeholder images in the projects section with your own images
-5. Update the contact information and social media links
-6. Modify the color scheme in `styles.css` if desired (look for the CSS variables in the `:root` selector)
+- **HTML5/CSS3**: Modern semantic markup and advanced CSS features
+- **JavaScript**: Interactive elements and animations
+- **Particles.js**: Dynamic neural network background
+- **Font Awesome**: Icons and visual elements
+- **GitHub Pages**: Hosting platform
 
-## Customization
+## 🚀 Projects Featured
 
-### Changing Colors
-The website uses CSS variables for colors, which can be modified in the `:root` section of `styles.css`:
+- **Sentiment Analysis App**: NLP application for analyzing sentiment in text and CSV files
+- **CNC Milling Machine Anomaly Detection**: Deep learning system for industrial anomaly detection
+- **GangaFlow**: AI-driven water quality monitoring system
+- **Oil Spill Detection**: Advanced solution combining AIS data and satellite imagery
 
-```css
-:root {
-    --primary-color: #2c3e50;
-    --secondary-color: #3498db;
-    --accent-color: #e74c3c;
-    --text-color: #333;
-    --light-bg: #f5f6fa;
-    --white: #ffffff;
-}
-```
+## 🛠️ Setup and Deployment
 
-### Adding Projects
-To add new projects, copy the following structure in the projects section of `index.html`:
+1. Clone the repository:
+   ```
+   git clone https://github.com/chashmishcoder/chashmishcoder.github.io.git
+   ```
 
-```html
-<div class="project-card">
-    <div class="project-image">
-        <img src="path-to-your-image.jpg" alt="Project Title">
-    </div>
-    <div class="project-content">
-        <h3>Project Title</h3>
-        <p>Project description goes here.</p>
-        <div class="project-tags">
-            <span>Technology 1</span>
-            <span>Technology 2</span>
-            <span>Technology 3</span>
-        </div>
-    </div>
-</div>
-```
+2. Navigate to the project directory:
+   ```
+   cd chashmishcoder.github.io
+   ```
 
-### Adding Skills
-To add new skills, add them to the appropriate category in the skills section of `index.html`:
+3. Preview locally (using Python's built-in server or any other static server):
+   ```
+   python -m http.server 8000
+   ```
 
-```html
-<div class="skill-category">
-    <h3>Category Name</h3>
-    <ul>
-        <li>Skill 1</li>
-        <li>Skill 2</li>
-        <li>Skill 3</li>
-    </ul>
-</div>
-```
+4. Open `http://localhost:8000` in your browser
 
-## Browser Support
+## 🖋️ Contact Information
 
-- Chrome (latest)
-- Firefox (latest)
-- Safari (latest)
-- Edge (latest)
-- Opera (latest)
+- **Email**: thorveomkar4@gmail.com
+- **LinkedIn**: [linkedin.com/in/omkarthorve](https://www.linkedin.com/in/omkarthorve/)
+- **GitHub**: [github.com/chashmishcoder](https://github.com/chashmishcoder)
+- **Twitter**: [twitter.com/_hustle_master](https://twitter.com/_hustle_master)
 
-## License
+## 📄 License
 
-This project is open source and available under the MIT License. 
+© 2025 Omkar Thorve. All rights reserved.
